@@ -1,0 +1,14 @@
+# Go
+backend/backend
+backend/.env
+
+# Node.js
+generator/node_modules/
+generator/.env
+generator/npm-debug.log*
+
+# OS / IDEs
+.DS_Store
+.idea/
+.vscode/
+*.db

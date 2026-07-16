@@ -1,0 +1,19 @@
+{
+  "name": "food-delivery-generator",
+  "version": "1.0.0",
+  "description": "Order event generator for the Food Delivery Order Processing Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "dotenv": "^16.4.5",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
